@@ -5,8 +5,8 @@ import { Calendar, MapPin, Users, Plus, Copy, Check, X, Eye, FileText, LogOut, A
 // CONFIGURAÇÃO DO SUPABASE
 // ===========================================
 // SUBSTITUA PELAS SUAS CREDENCIAIS REAIS
-const SUPABASE_URL = 'SEU_SUPABASE_URL_AQUI';
-const SUPABASE_ANON_KEY = 'SEU_SUPABASE_ANON_KEY_AQUI';
+const SUPABASE_URL = 'https://pirodqbhdfywnslpymgt.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBpcm9kcWJoZGZ5d25zbHB5bWd0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ0MDA3ODMsImV4cCI6MjA2OTk3Njc4M30.g6nqIZFm0lZRXAgRW43w6rA42MtYmZaI-DWYFEwvKqg';
 
 // Simulação do cliente Supabase (substitua pela lib real)
 class SupabaseClient {
