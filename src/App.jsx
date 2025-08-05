@@ -70,7 +70,7 @@ class TableClient {
     };
 
     if (this.table === 'viagens') {
-      newRecord.link_publico = `https://seuapp.com/inscricao?viagem=${newRecord.id}`;
+      newRecord.link_publico = `https://app-gestao-viagens.vercel.app/inscricao?viagem=${newRecord.id}`;
       mockData.viagens.push(newRecord);
     } else if (this.table === 'reservas') {
       mockData.reservas.push(newRecord);
@@ -138,7 +138,7 @@ const mockData = {
       data_volta: '2025-09-18',
       limite_passageiros: 25,
       status: 'Aberta',
-      link_publico: 'https://seuapp.com/inscricao?viagem=1',
+      link_publico: 'https://app-gestao-viagens.vercel.app/inscricao?viagem=1',
       created_at: '2025-08-05T10:00:00Z'
     }
   ],
